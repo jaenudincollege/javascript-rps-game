@@ -9,7 +9,7 @@ function getComputerChoice() {
   }
 }
 
-function getComputerChoice() {
+function getHumanChoice() {
   const input = prompt(`
     Enter the number corresponding to your choice:
     1. Rock
