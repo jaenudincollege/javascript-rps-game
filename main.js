@@ -53,5 +53,14 @@ function playGame() {
     }
   }
 
+  for (let i = 0; i < 5; i++) {
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+    let result = playRound(humanSelection, computerSelection);
+    console.log(result);
+  }
+  console.log(`Score
+    YOU : ${humanScore}
+    COMPUTER: ${computerScore}`);
 }
 playGame();
