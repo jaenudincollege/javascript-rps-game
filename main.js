@@ -1,8 +1,8 @@
 function getComputerChoice() {
-  const random = Math.round(Math.random() * 2) + 1;
-  if (random == 1) {
+  const random = Math.floor(Math.random() * 3);
+  if (random == 0) {
     return "rock";
-  } else if (random == 2) {
+  } else if (random == 1) {
     return "paper";
   } else {
     return "scissors";
